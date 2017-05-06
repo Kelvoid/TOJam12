@@ -1,0 +1,1 @@
+Save Raw files here, Make a folder for types of files (MAX, PSD, MP3, etc.)
