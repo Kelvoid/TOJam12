@@ -10,6 +10,7 @@ public class Sheep : MonoBehaviour
     public Color woolColour;
     public GameObject eyes;
 
+    public float attentionDist;
 
 	void Start ()
     {
@@ -19,6 +20,17 @@ public class Sheep : MonoBehaviour
 	
 	void Update ()
     {
-	    
+
+	    if(hunger <= 0)
+        {
+            //GameOver
+        }
+
+        Debug.Log(hunger);
 	}
+
+    void Hunger()
+    {
+        //Controlls Hunger levels
+    }
 }

@@ -4,7 +4,10 @@ using System.Collections;
 public class NavigationAI : MonoBehaviour {
 
     public float wanderRadius;
-    public float wanderTimer;
+    private float wanderTimer;
+
+    public float minWanderTime;
+    public float maxWanderTime;
 
     private Transform target;
     private NavMeshAgent agent;
@@ -13,6 +16,7 @@ public class NavigationAI : MonoBehaviour {
     // Use this for initialization
     void OnEnable()
     {
+        wanderTimer = Random.Range(minWanderTime, maxWanderTime);
         agent = GetComponent<NavMeshAgent>();
         timer = wanderTimer;
     }
@@ -22,11 +26,14 @@ public class NavigationAI : MonoBehaviour {
     {
         timer += Time.deltaTime;
 
+
+
         if (timer >= wanderTimer)
         {
             Vector3 newPos = RandomNavSphere(transform.position, wanderRadius, -1);
             agent.SetDestination(newPos);
             timer = 0;
+            wanderTimer = Random.Range(minWanderTime, maxWanderTime);
         }
     }
 
