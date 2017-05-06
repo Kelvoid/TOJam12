@@ -13,28 +13,35 @@ public class NavigationAI : MonoBehaviour {
     private NavMeshAgent agent;
     private float timer;
 
-    // Use this for initialization
+    Sheep sheep;
+
     void OnEnable()
     {
         wanderTimer = Random.Range(minWanderTime, maxWanderTime);
         agent = GetComponent<NavMeshAgent>();
         timer = wanderTimer;
+        sheep = GetComponent<Sheep>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        timer += Time.deltaTime;
-
-
-
-        if (timer >= wanderTimer)
+        if(sheep.attentionGrabbed == false)
         {
-            Vector3 newPos = RandomNavSphere(transform.position, wanderRadius, -1);
-            agent.SetDestination(newPos);
-            timer = 0;
-            wanderTimer = Random.Range(minWanderTime, maxWanderTime);
+            timer += Time.deltaTime;
+            if (timer >= wanderTimer)
+            {
+                Vector3 newPos = RandomNavSphere(transform.position, wanderRadius, -1);
+                agent.SetDestination(newPos);
+                timer = 0;
+                wanderTimer = Random.Range(minWanderTime, maxWanderTime);
+            }
         }
+
+        if(sheep.attentionGrabbed == true)
+        {           
+            agent.SetDestination(sheep.currentPointofIntrest);
+        }
+
     }
 
     public static Vector3 RandomNavSphere(Vector3 origin, float dist, int layermask)

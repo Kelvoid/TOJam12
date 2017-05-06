@@ -31,4 +31,616 @@ NavMeshData:
     cellSize: 0.16666667
   m_Heightmaps: []
   m_HeightMeshes: []
-  m_OffMeshLinks: []
+  m_OffMeshLinks:
+  - m_Start: {x: -7.833332, y: 0.08333337, z: -3}
+    m_End: {x: -6.833332, y: 0.06122209, z: -3}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -7.833332, y: 0.08333337, z: -2}
+    m_End: {x: -6.833332, y: 0.05608657, z: -2}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -7.833332, y: 0.08333337, z: -4}
+    m_End: {x: -6.833332, y: 0.06635761, z: -4}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -7.833332, y: 0.08333337, z: -1}
+    m_End: {x: -6.833332, y: 0.05095105, z: -1}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -7.833332, y: 0.08333337, z: -5}
+    m_End: {x: -6.833332, y: 0.071493134, z: -5}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -7.666666, y: 0.08333337, z: -6.166666}
+    m_End: {x: -6.723857, y: 0.07190877, z: -5.223857}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -3.75, y: 0.08333337, z: -6.333332}
+    m_End: {x: -3.75, y: 0.008870453, z: -5.333332}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -4.75, y: 0.08333337, z: -6.333332}
+    m_End: {x: -4.75, y: 0.009847015, z: -5.333332}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -2.75, y: 0.08333337, z: -6.333332}
+    m_End: {x: -2.75, y: 0.00789389, z: -5.333332}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -5.75, y: 0.08333337, z: -6.333332}
+    m_End: {x: -5.75, y: 0.010823578, z: -5.333332}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -1.75, y: 0.08333337, z: -6.333332}
+    m_End: {x: -1.75, y: 0.010416672, z: -5.333332}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -6.75, y: 0.08333337, z: -6.333332}
+    m_End: {x: -6.75, y: 0.07264626, z: -5.333332}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -0.75, y: 0.08333337, z: -6.333332}
+    m_End: {x: -0.75, y: 0.010416672, z: -5.333332}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -6.333332, y: 0.08333337, z: -2.5}
+    m_End: {x: -7.4999986, y: 0.06312415, z: -2.5}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -6.333332, y: 0.08333337, z: -3.5}
+    m_End: {x: -7.4999986, y: 0.06825966, z: -3.5}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -6.333332, y: 0.08333337, z: -1.5}
+    m_End: {x: -7.4999986, y: 0.057988614, z: -1.5}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -6.333332, y: 0.08333337, z: -4.5}
+    m_End: {x: -7.4999986, y: 0.07339519, z: -4.5}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -6.333332, y: 0.08333337, z: -0.5}
+    m_End: {x: -7.4999986, y: 0.052853093, z: -0.5}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -3.166666, y: 0.08333337, z: -5}
+    m_End: {x: -3.166666, y: 0.008951828, z: -6}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -2.166666, y: 0.08333337, z: -5}
+    m_End: {x: -2.166666, y: 0.01171875, z: -6}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -4.166666, y: 0.08333337, z: -5}
+    m_End: {x: -4.166666, y: 0.00992839, z: -6}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -1.166666, y: 0.08333337, z: -5}
+    m_End: {x: -1.166666, y: 0.01171875, z: -6}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -5.166666, y: 0.08333337, z: -5}
+    m_End: {x: -5.166666, y: 0.010904953, z: -6}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -0.16666603, y: 0.08333337, z: -5}
+    m_End: {x: -0.16666603, y: 0.01171875, z: -6}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -6.166666, y: 0.08333337, z: -5}
+    m_End: {x: -6.166666, y: 0.011881515, z: -6}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 8, y: 0.08333337, z: -2.916666}
+    m_End: {x: 6.8333335, y: 0.060935616, z: -2.916666}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 8, y: 0.08333337, z: -3.916666}
+    m_End: {x: 6.8333335, y: 0.06589453, z: -3.916666}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 8, y: 0.08333337, z: -1.916666}
+    m_End: {x: 6.8333335, y: 0.05597669, z: -1.916666}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 8, y: 0.08333337, z: -4.916666}
+    m_End: {x: 6.8333335, y: 0.07085344, z: -4.916666}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 8, y: 0.08333337, z: -0.91666603}
+    m_End: {x: 6.8333335, y: 0.05101779, z: -0.91666603}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 7.75, y: 0.08333337, z: -6.083332}
+    m_End: {x: 6.925042, y: 0.073171645, z: -5.258374}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 3.75, y: 0.08333337, z: -6.333332}
+    m_End: {x: 3.75, y: 0.008870453, z: -5.333332}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 2.75, y: 0.08333337, z: -6.333332}
+    m_End: {x: 2.75, y: 0.00789389, z: -5.333332}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 4.75, y: 0.08333337, z: -6.333332}
+    m_End: {x: 4.75, y: 0.009847015, z: -5.333332}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 1.75, y: 0.08333337, z: -6.333332}
+    m_End: {x: 1.75, y: 0.0069173127, z: -5.333332}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 5.75, y: 0.08333337, z: -6.333332}
+    m_End: {x: 5.75, y: 0.010823578, z: -5.333332}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 0.75, y: 0.08333337, z: -6.333332}
+    m_End: {x: 0.75, y: 0.0059407502, z: -5.333332}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 6.75, y: 0.08333337, z: -6.333332}
+    m_End: {x: 6.75, y: 0.07299176, z: -5.333332}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 6.5, y: 0.08333337, z: -2.5}
+    m_End: {x: 7.5, y: 0.06340326, z: -2.5}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 6.5, y: 0.08333337, z: -1.5}
+    m_End: {x: 7.5, y: 0.05844435, z: -1.5}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 6.5, y: 0.08333337, z: -3.5}
+    m_End: {x: 7.5, y: 0.06836218, z: -3.5}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 6.5, y: 0.08333337, z: -0.5}
+    m_End: {x: 7.5, y: 0.05348544, z: -0.5}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 6.5, y: 0.08333337, z: -4.5}
+    m_End: {x: 7.5, y: 0.073321104, z: -4.5}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 3.25, y: 0.08333337, z: -5}
+    m_End: {x: 3.25, y: 0.009033203, z: -6}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 4.25, y: 0.08333337, z: -5}
+    m_End: {x: 4.25, y: 0.010009766, z: -6}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 2.25, y: 0.08333337, z: -5}
+    m_End: {x: 2.25, y: 0.008056641, z: -6}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 5.25, y: 0.08333337, z: -5}
+    m_End: {x: 5.25, y: 0.010986328, z: -6}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 1.25, y: 0.08333337, z: -5}
+    m_End: {x: 1.25, y: 0.007080078, z: -6}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 6.25, y: 0.08333337, z: -5}
+    m_End: {x: 6.25, y: 0.011962891, z: -6}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 0.25, y: 0.08333337, z: -5}
+    m_End: {x: 0.25, y: 0.0061035156, z: -6}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -7.833332, y: 0.08333337, z: 3.3333335}
+    m_End: {x: -6.833332, y: 0.05966136, z: 3.3333335}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -7.833332, y: 0.08333337, z: 4.3333335}
+    m_End: {x: -6.833332, y: 0.06491208, z: 4.3333335}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -7.833332, y: 0.08333337, z: 2.3333335}
+    m_End: {x: -6.833332, y: 0.05441062, z: 2.3333335}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -7.833332, y: 0.08333337, z: 5.3333335}
+    m_End: {x: -6.833332, y: 0.0701628, z: 5.3333335}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -7.833332, y: 0.08333337, z: 1.3333335}
+    m_End: {x: -6.833332, y: 0.0491599, z: 1.3333335}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -7.833332, y: 0.08333337, z: 0.3333335}
+    m_End: {x: -6.833332, y: 0.043909177, z: 0.3333335}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -7.666666, y: 0.08333337, z: 6.8333335}
+    m_End: {x: -6.723856, y: 0.07241304, z: 5.8905263}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -3.75, y: 0.08333337, z: 7}
+    m_End: {x: -3.75, y: 0.009521484, z: 6}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -2.75, y: 0.08333337, z: 7}
+    m_End: {x: -2.75, y: 0.008544922, z: 6}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -4.75, y: 0.08333337, z: 7}
+    m_End: {x: -4.75, y: 0.010498047, z: 6}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -1.75, y: 0.08333337, z: 7}
+    m_End: {x: -1.75, y: 0.0075683594, z: 6}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -5.75, y: 0.08333337, z: 7}
+    m_End: {x: -5.75, y: 0.011474609, z: 6}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -0.75, y: 0.08333337, z: 7}
+    m_End: {x: -0.75, y: 0.006591797, z: 6}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -6.75, y: 0.08333337, z: 7}
+    m_End: {x: -6.75, y: 0.07314916, z: 6}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -3.166666, y: 0.08333337, z: 5.666667}
+    m_End: {x: -3.166666, y: 0.0096028745, z: 6.666667}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -4.166666, y: 0.08333337, z: 5.666667}
+    m_End: {x: -4.166666, y: 0.010579437, z: 6.666667}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -2.166666, y: 0.08333337, z: 5.666667}
+    m_End: {x: -2.166666, y: 0.008626312, z: 6.666667}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -5.166666, y: 0.08333337, z: 5.666667}
+    m_End: {x: -5.166666, y: 0.0115559995, z: 6.666667}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -1.166666, y: 0.08333337, z: 5.666667}
+    m_End: {x: -1.166666, y: 0.0076497495, z: 6.666667}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -6.166666, y: 0.08333337, z: 5.666667}
+    m_End: {x: -6.166666, y: 0.012532562, z: 6.666667}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -0.16666603, y: 0.08333337, z: 5.666667}
+    m_End: {x: -0.16666603, y: 0.006673187, z: 6.666667}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -6.333332, y: 0.08333337, z: 2.8333335}
+    m_End: {x: -7.4999986, y: 0.06114906, z: 2.8333335}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -6.333332, y: 0.08333337, z: 1.8333335}
+    m_End: {x: -7.4999986, y: 0.05589834, z: 1.8333335}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -6.333332, y: 0.08333337, z: 3.8333335}
+    m_End: {x: -7.4999986, y: 0.06639978, z: 3.8333335}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -6.333332, y: 0.08333337, z: 0.8333335}
+    m_End: {x: -7.4999986, y: 0.0506476, z: 0.8333335}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: -6.333332, y: 0.08333337, z: 4.8333335}
+    m_End: {x: -7.4999986, y: 0.071650505, z: 4.8333335}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 3.25, y: 0.08333337, z: 5.666667}
+    m_End: {x: 3.25, y: 0.00968425, z: 6.666667}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 2.25, y: 0.08333337, z: 5.666667}
+    m_End: {x: 2.25, y: 0.013020843, z: 6.666667}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 4.25, y: 0.08333337, z: 5.666667}
+    m_End: {x: 4.25, y: 0.010660812, z: 6.666667}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 1.25, y: 0.08333337, z: 5.666667}
+    m_End: {x: 1.25, y: 0.013020843, z: 6.666667}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 5.25, y: 0.08333337, z: 5.666667}
+    m_End: {x: 5.25, y: 0.011637375, z: 6.666667}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 0.25, y: 0.08333337, z: 5.666667}
+    m_End: {x: 0.25, y: 0.013020843, z: 6.666667}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 6.25, y: 0.08333337, z: 5.666667}
+    m_End: {x: 6.25, y: 0.012613937, z: 6.666667}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 6.5, y: 0.08333337, z: 2.8333335}
+    m_End: {x: 7.5, y: 0.06062162, z: 2.8333335}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 6.5, y: 0.08333337, z: 3.8333335}
+    m_End: {x: 7.5, y: 0.065744564, z: 3.8333335}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 6.5, y: 0.08333337, z: 1.8333335}
+    m_End: {x: 7.5, y: 0.05549866, z: 1.8333335}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 6.5, y: 0.08333337, z: 4.8333335}
+    m_End: {x: 7.5, y: 0.07086752, z: 4.8333335}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 6.5, y: 0.08333337, z: 0.8333335}
+    m_End: {x: 7.5, y: 0.0503757, z: 0.8333335}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 8, y: 0.08333337, z: 3.3333335}
+    m_End: {x: 6.8333335, y: 0.05908473, z: 3.3333335}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 8, y: 0.08333337, z: 2.3333335}
+    m_End: {x: 6.8333335, y: 0.053961784, z: 2.3333335}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 8, y: 0.08333337, z: 4.3333335}
+    m_End: {x: 6.8333335, y: 0.06420767, z: 4.3333335}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 8, y: 0.08333337, z: 1.3333335}
+    m_End: {x: 6.8333335, y: 0.048838824, z: 1.3333335}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 8, y: 0.08333337, z: 5.3333335}
+    m_End: {x: 6.8333335, y: 0.06933063, z: 5.3333335}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 8, y: 0.08333337, z: 0.3333335}
+    m_End: {x: 6.8333335, y: 0.043715864, z: 0.3333335}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 7.8333335, y: 0.08333337, z: 6.8333335}
+    m_End: {x: 6.8905244, y: 0.07253668, z: 5.8905244}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 3.8333335, y: 0.08333337, z: 7}
+    m_End: {x: 3.8333335, y: 0.0096028745, z: 6}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 4.8333335, y: 0.08333337, z: 7}
+    m_End: {x: 4.8333335, y: 0.010579437, z: 6}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 2.8333335, y: 0.08333337, z: 7}
+    m_End: {x: 2.8333335, y: 0.008626312, z: 6}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 5.8333335, y: 0.08333337, z: 7}
+    m_End: {x: 5.8333335, y: 0.0115559995, z: 6}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 1.8333335, y: 0.08333337, z: 7}
+    m_End: {x: 1.8333335, y: 0.01171875, z: 6}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 6.8333335, y: 0.08333337, z: 7}
+    m_End: {x: 6.8333335, y: 0.072745934, z: 6}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
+  - m_Start: {x: 0.8333335, y: 0.08333337, z: 7}
+    m_End: {x: 0.8333335, y: 0.01171875, z: 6}
+    m_Radius: 0.5
+    m_LinkType: 2
+    m_Area: 2
+    m_LinkDirection: 0
