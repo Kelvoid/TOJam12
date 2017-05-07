@@ -16,11 +16,12 @@ public class Sheep : MonoBehaviour
     public Vector3 currentPointofIntrest;
 
     private PointsOfIntrest pointsOfIntrest;
-    public float fulffSize;
+    public Animator sheepAnim;
 
 	void Start ()
     {
         pointsOfIntrest = GetComponent<PointsOfIntrest>();
+        sheepAnim = GetComponent<Animator>();
         InvokeRepeating("Hunger", 5, 5);
         hunger = 100;
         mood = 100;

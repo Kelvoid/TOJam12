@@ -1,0 +1,307 @@
+fileFormatVersion: 2
+guid: 702a541de1bea394fbb525494dc6d4e9
+timeCreated: 1494183637
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Body
+    100002: //RootNode
+    100004: joint2
+    100006: joint2 1
+    100008: joint4
+    100010: joint4 1
+    100012: joint6
+    100014: joint8
+    100016: joint8 1
+    100018: leftEar
+    100020: leftFrontLeg
+    100022: leftHindLeg
+    100024: Noodle
+    100026: rightEar
+    100028: rightFrontLeg
+    100030: rightHindLeg
+    100032: SheepBits
+    100034: SheepBody
+    400000: Body
+    400002: //RootNode
+    400004: joint2
+    400006: joint2 1
+    400008: joint4
+    400010: joint4 1
+    400012: joint6
+    400014: joint8
+    400016: joint8 1
+    400018: leftEar
+    400020: leftFrontLeg
+    400022: leftHindLeg
+    400024: Noodle
+    400026: rightEar
+    400028: rightFrontLeg
+    400030: rightHindLeg
+    400032: SheepBits
+    400034: SheepBody
+    4300000: SheepBody
+    4300002: SheepBits
+    7400000: idle
+    7400002: walk
+    7400004: eat
+    9500000: //RootNode
+    13700000: SheepBits
+    13700002: SheepBody
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 4
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Body/leftFrontLeg
+        weight: 1
+      - path: Body/leftFrontLeg/joint2
+        weight: 1
+      - path: Body/leftHindLeg
+        weight: 1
+      - path: Body/leftHindLeg/joint4
+        weight: 1
+      - path: Body/Noodle
+        weight: 1
+      - path: Body/Noodle/joint6
+        weight: 1
+      - path: Body/Noodle/leftEar
+        weight: 1
+      - path: Body/Noodle/leftEar/joint8
+        weight: 1
+      - path: Body/Noodle/rightEar
+        weight: 1
+      - path: Body/Noodle/rightEar/joint8 1
+        weight: 1
+      - path: Body/rightFrontLeg
+        weight: 1
+      - path: Body/rightFrontLeg/joint2 1
+        weight: 1
+      - path: Body/rightHindLeg
+        weight: 1
+      - path: Body/rightHindLeg/joint4 1
+        weight: 1
+      - path: SheepBits
+        weight: 1
+      - path: SheepBody
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: Take 001
+      firstFrame: 120
+      lastFrame: 135
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Body/leftFrontLeg
+        weight: 1
+      - path: Body/leftFrontLeg/joint2
+        weight: 1
+      - path: Body/leftHindLeg
+        weight: 1
+      - path: Body/leftHindLeg/joint4
+        weight: 1
+      - path: Body/Noodle
+        weight: 1
+      - path: Body/Noodle/joint6
+        weight: 1
+      - path: Body/Noodle/leftEar
+        weight: 1
+      - path: Body/Noodle/leftEar/joint8
+        weight: 1
+      - path: Body/Noodle/rightEar
+        weight: 1
+      - path: Body/Noodle/rightEar/joint8 1
+        weight: 1
+      - path: Body/rightFrontLeg
+        weight: 1
+      - path: Body/rightFrontLeg/joint2 1
+        weight: 1
+      - path: Body/rightHindLeg
+        weight: 1
+      - path: Body/rightHindLeg/joint4 1
+        weight: 1
+      - path: SheepBits
+        weight: 1
+      - path: SheepBody
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: eat
+      takeName: Take 001
+      firstFrame: 140
+      lastFrame: 185
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Body/leftFrontLeg
+        weight: 1
+      - path: Body/leftFrontLeg/joint2
+        weight: 1
+      - path: Body/leftHindLeg
+        weight: 1
+      - path: Body/leftHindLeg/joint4
+        weight: 1
+      - path: Body/Noodle
+        weight: 1
+      - path: Body/Noodle/joint6
+        weight: 1
+      - path: Body/Noodle/leftEar
+        weight: 1
+      - path: Body/Noodle/leftEar/joint8
+        weight: 1
+      - path: Body/Noodle/rightEar
+        weight: 1
+      - path: Body/Noodle/rightEar/joint8 1
+        weight: 1
+      - path: Body/rightFrontLeg
+        weight: 1
+      - path: Body/rightFrontLeg/joint2 1
+        weight: 1
+      - path: Body/rightHindLeg
+        weight: 1
+      - path: Body/rightHindLeg/joint4 1
+        weight: 1
+      - path: SheepBits
+        weight: 1
+      - path: SheepBody
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
