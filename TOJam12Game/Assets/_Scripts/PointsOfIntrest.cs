@@ -4,15 +4,6 @@ using System.Collections.Generic;
 
 public class PointsOfIntrest : MonoBehaviour {
 
-    public List<Vector3> listOfPoints;
+    public List<GameObject> listOfPoints;
 
-	void Start ()
-    {
-	    
-	}
-	
-	void Update ()
-    {
-	    
-	}
 }

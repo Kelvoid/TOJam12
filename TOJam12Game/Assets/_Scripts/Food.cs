@@ -14,7 +14,7 @@ public class Food : MonoBehaviour
     {
         sheep = FindObjectOfType<Sheep>();
         pointsOfIntrest = FindObjectOfType<PointsOfIntrest>();
-        pointsOfIntrest.listOfPoints.Add(gameObject.transform.position);
+
 	}
 
     void OnCollisionEnter(Collision col)
@@ -23,8 +23,13 @@ public class Food : MonoBehaviour
         {
             Debug.Log("Ate Apple");
             sheep.hunger += hungerFill;
-            pointsOfIntrest.listOfPoints.Remove(gameObject.transform.position);
+            pointsOfIntrest.listOfPoints.Remove(gameObject);
             Destroy(gameObject);
+        }
+
+        if (col.gameObject.CompareTag("DropArea"))
+        {
+            pointsOfIntrest.listOfPoints.Add(gameObject);
         }
     }
 }

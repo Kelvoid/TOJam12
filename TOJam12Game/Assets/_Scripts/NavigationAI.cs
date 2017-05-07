@@ -24,8 +24,13 @@ public class NavigationAI : MonoBehaviour {
     }
 
     void Update()
-    {
-        if(sheep.attentionGrabbed == false)
+    {      
+        if(sheep.attentionGrabbed == true)
+        {           
+            agent.SetDestination(sheep.currentPointofIntrest);
+        }
+
+        else
         {
             timer += Time.deltaTime;
             if (timer >= wanderTimer)
@@ -35,11 +40,6 @@ public class NavigationAI : MonoBehaviour {
                 timer = 0;
                 wanderTimer = Random.Range(minWanderTime, maxWanderTime);
             }
-        }
-
-        if(sheep.attentionGrabbed == true)
-        {           
-            agent.SetDestination(sheep.currentPointofIntrest);
         }
 
     }

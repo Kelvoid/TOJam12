@@ -8,42 +8,25 @@ public class InputManager : MonoBehaviour
 
     public GameObject food;
 
+    private GameObject currentlyHeldItem;
+
 	void Update ()
     {
         mousePos = Input.mousePosition;
 
-        if (Input.GetButtonUp("Fire1"))
+        if (Input.GetButtonDown("Fire1"))
         {
-            Clicked();
-        }
-
-        if (Input.GetButton("Fire1"))
-        {
-            ClickHeld();
-        }
-	}
-
-    void Clicked()
-    {
-        Ray ray = Camera.main.ScreenPointToRay(mousePos);
-        RaycastHit hit;
-
-        if (Physics.Raycast(ray, out hit))
-        {
-            if(hit.collider.tag == "DropArea")
-            {
-                Instantiate(food, new Vector3(hit.point.x, 1, hit.point.z), transform.rotation);
-            }
-            else
-            {
-                Debug.Log(hit.collider.name);
-            }
-
+            CreateFood();    
         }
     }
 
-    void ClickHeld()
+    void CreateFood()
     {
-        //Held down
+        RaycastHit hit;
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        if (Physics.Raycast(ray, out hit))
+        {
+            Instantiate(food, new Vector3(hit.point.x, 1, hit.point.z), gameObject.transform.rotation);
+        }
     }
 }

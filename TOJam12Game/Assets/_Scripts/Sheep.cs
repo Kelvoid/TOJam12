@@ -20,36 +20,37 @@ public class Sheep : MonoBehaviour
 	void Start ()
     {
         pointsOfIntrest = GetComponent<PointsOfIntrest>();
+        InvokeRepeating("Hunger", 5, 5);
         hunger = 100;
         mood = 100;
 	}
 	
 	void Update ()
     {
-        if (pointsOfIntrest.listOfPoints.Count > 0f)
+        if (pointsOfIntrest.listOfPoints.Count > 0)
         {
+            attentionGrabbed = false;
+            float closestDistance = float.PositiveInfinity;
             for (int i = 0; i < pointsOfIntrest.listOfPoints.Count; i++)
             {
-                if (Vector3.Distance(gameObject.transform.position, pointsOfIntrest.listOfPoints[i]) < attentionDist)
+                float d = Vector3.Distance(gameObject.transform.position, pointsOfIntrest.listOfPoints[i].transform.position);
+                if (d < attentionDist && d<closestDistance)
                 {
+                    closestDistance = d;
                     attentionGrabbed = true;
-                    currentPointofIntrest = pointsOfIntrest.listOfPoints[i];
+                    currentPointofIntrest = pointsOfIntrest.listOfPoints[i].transform.position;
                 }
             }
         }
-        else
-        {
-            attentionGrabbed = false;
-        }
 
-        if (hunger <= 0)
+        if(hunger <= 0f)
         {
-            //GameOver
+            //Gameover
         }
 	}
 
     void Hunger()
     {
-        //Controlls Hunger levels
+        hunger -= 10;
     }
 }
