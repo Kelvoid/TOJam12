@@ -27,9 +27,9 @@ public class Sheep : MonoBehaviour
 	
 	void Update ()
     {
+        attentionGrabbed = false;
         if (pointsOfIntrest.listOfPoints.Count > 0)
-        {
-            attentionGrabbed = false;
+        {            
             float closestDistance = float.PositiveInfinity;
             for (int i = 0; i < pointsOfIntrest.listOfPoints.Count; i++)
             {
