@@ -16,6 +16,7 @@ public class Sheep : MonoBehaviour
     public Vector3 currentPointofIntrest;
 
     private PointsOfIntrest pointsOfIntrest;
+    public float fulffSize;
 
 	void Start ()
     {
@@ -43,7 +44,7 @@ public class Sheep : MonoBehaviour
             }
         }
 
-        if(hunger <= 0f)
+        if (hunger <= 0f)
         {
             //Gameover
         }

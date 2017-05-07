@@ -5,10 +5,15 @@ public class InputManager : MonoBehaviour
 {
     private Vector3 mousePos;
     public Sprite cursorGraphic;
-
     public GameObject food;
 
     private GameObject currentlyHeldItem;
+    private Sheep sheep;
+
+    void Awake()
+    {
+        sheep = FindObjectOfType<Sheep>();
+    }
 
 	void Update ()
     {
@@ -16,7 +21,7 @@ public class InputManager : MonoBehaviour
 
         if (Input.GetButtonDown("Fire1"))
         {
-            CreateFood();    
+            CreateFood();
         }
     }
 
@@ -26,7 +31,15 @@ public class InputManager : MonoBehaviour
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         if (Physics.Raycast(ray, out hit))
         {
-            Instantiate(food, new Vector3(hit.point.x, 1, hit.point.z), gameObject.transform.rotation);
+            if(hit.collider.gameObject.tag == "DropArea")
+            {
+                Instantiate(food, new Vector3(hit.point.x, 1, hit.point.z), gameObject.transform.rotation);
+            }
+            
+            if(hit.collider.gameObject.tag == "Sheep")
+            {
+                sheep.GetComponentInChildren<Grow>().ShrinkFluff();
+            }           
         }
     }
 }

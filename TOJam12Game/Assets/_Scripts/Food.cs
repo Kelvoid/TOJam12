@@ -22,6 +22,7 @@ public class Food : MonoBehaviour
         if(col.gameObject.CompareTag("Sheep"))
         {
             Debug.Log("Ate Apple");
+            sheep.GetComponentInChildren<Grow>().GrowFluff();
             sheep.hunger += hungerFill;
             pointsOfIntrest.listOfPoints.Remove(gameObject);
             Destroy(gameObject);
